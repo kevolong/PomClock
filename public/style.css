@@ -1,0 +1,186 @@
+html {
+  font-size: 18px;
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  background-color: #54f7cb !important;
+  color: #034975 !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+}
+
+#pomodoro-app {
+  width: 95vw;
+}
+
+#app-title {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 0.5px 0.5px 0px rgba(0, 0, 0, 0.5);
+  margin-bottom: 60px;
+}
+
+@media (max-width: 440px) {
+  #app-title {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+  }
+}
+
+#clock-panel {
+  font-family: "Inconsolata", monospace;
+  text-align: center;
+  color: #0881dd;
+  max-width: 16.5rem;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 0.6rem 0 0.6rem 0;
+  border: 5px solid #0881dd;
+  border-radius: 10px;
+}
+
+#clock-panel #timer-label {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+}
+
+#clock-panel #time-left {
+  font-size: 5rem;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  line-height: 3rem;
+}
+
+#clock-panel #beep {
+  visibility: hidden;
+}
+
+#control-panel {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  max-width: 465px;
+  margin: auto;
+}
+
+#control-panel .i-button {
+  display: inline-block;
+  width: 2.5rem;
+  cursor: pointer;
+}
+
+#control-panel #play-controls {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+#control-panel .blank-spacer {
+  padding: 0.2rem;
+}
+
+@media (max-width: 576px) {
+  #control-panel .blank-spacer {
+    padding: 0.75rem;
+  }
+}
+
+#control-panel #session-length,
+#control-panel #break-length {
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+}
+
+@media (max-width: 440px) {
+  #control-panel #session-length,
+  #control-panel #break-length {
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+  }
+}
+
+#control-panel #session-options {
+  margin-bottom: 15px;
+}
+
+@media (min-width: 576px) {
+  #control-panel #session-options {
+    padding-right: 35px;
+  }
+}
+
+#control-panel #break-options {
+  margin-bottom: 15px;
+}
+
+@media (min-width: 576px) {
+  #control-panel #break-options {
+    padding-left: 35px;
+  }
+}
+
+#by-kevin {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+
+#by-kevin a {
+  text-decoration: none;
+  color: #034975;
+}
+
+@media (max-width: 440px) {
+  #by-kevin {
+    margin-top: 1rem;
+  }
+}
+
+#info-modal {
+  color: #034975;
+  white-space: normal;
+}
+
+#info-modal .modal-header {
+  color: #0881dd;
+}
+
+#info-modal .modal-body {
+  white-space: pre-wrap;
+}
+
+#info-modal .icon-key {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+/*# sourceMappingURL=style.css.map */
